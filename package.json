@@ -4,11 +4,15 @@
   "description": "FrontEnd Portfolio Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.41.1"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
   }
 }
