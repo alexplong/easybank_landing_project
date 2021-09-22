@@ -1,5 +1,5 @@
-@use '../abstract/typography' as t;
+@use '../abstract' as a;
 
 body {
-  font-family: t.$publicSans;
+  font-family: a.$publicSans;
 }

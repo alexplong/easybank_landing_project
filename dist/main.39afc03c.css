@@ -1,7 +1,24 @@
+.flex {
+  display: flex;
+}
+.flex-jc-sb {
+  justify-content: space-between;
+}
+.flex-jc-c {
+  justify-content: center;
+}
+.flex-ai-c {
+  align-items: center;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+div.hamburger, div.hamClose {
+  display: flex;
 }
 
 html {
@@ -23,6 +40,7 @@ html {
 }
 
 div.mainLinks {
+  display: none;
   font-size: 0.875rem;
   font-weight: 400;
   color: #9698a6;
@@ -33,6 +51,7 @@ div.mainLinks {
 }
 
 .button {
+  display: none;
   font-family: "Public Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;

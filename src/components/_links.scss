@@ -2,6 +2,7 @@
 @use '../abstract' as a;
 
 div.mainLinks {
+  display: none;
   font-size: .875rem;
   font-weight: 400;
   color: a.$grayBlue;
