@@ -1,0 +1,12 @@
+// header links
+@use '../abstract' as a;
+
+div.mainLinks {
+  font-size: .875rem;
+  font-weight: 400;
+  color: a.$grayBlue;
+}
+
+.mainLink {
+  margin-left: 2.625rem;
+}

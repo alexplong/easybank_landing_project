@@ -1,5 +1,51 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.mainLogo {
+  height: 1.4375rem;
+  width: 9.5rem;
+  margin: 1.5625rem;
+}
+
+.bodyLogo {
+  margin: 0 -200px 0 0;
+}
+
+div.mainLinks {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #9698a6;
+}
+
+.mainLink {
+  margin-left: 2.625rem;
+}
+
+.button {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: white;
+  background: linear-gradient(90deg, #090979 0%, #31d35c 0%, #2bb7da 100%);
+  border-radius: 50px;
+  border: none;
+  padding: 1.25rem 2.75rem;
+  margin-right: 13.75rem;
+}
+
 body {
-  background-color: #2d314d;
+  font-family: "Public Sans", sans-serif;
 }
 
 /*# sourceMappingURL=/main.39afc03c.css.map */

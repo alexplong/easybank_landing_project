@@ -1,5 +1,9 @@
 @use '../abstract' as a;
 
-body {
-  background-color: a.$darkBlue;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
+
