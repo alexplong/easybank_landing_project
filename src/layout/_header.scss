@@ -1,13 +1,2 @@
 @use '../abstract' as a;
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-}
-
-
-div.hamburger, div.hamClose {
-  display: flex;
-}

@@ -11,16 +11,6 @@
   align-items: center;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-div.hamburger, div.hamClose {
-  display: flex;
-}
-
 html {
   box-sizing: border-box;
 }
