@@ -19,31 +19,33 @@
 
 <!-- Navigation bar -->
 <section>
-  <div class="flex flex-jc-sb flex-ai-c">
-    <img src="/logo.f3865969.svg" alt="easybank" class="mainLogo">
-   
-    <div class="flex flex-ai-c">
-      <img class="burger" src="/icon-hamburger.4d46a600.svg" alt="hamburger icon">
-    </div>
-    <div class="flex flex-ai-c">
-      <img class="close" src="/icon-close.672c8e2b.svg" alt="close icon">
-    </div>
-  
-    <div class="mainLinks">
-      <a class="mainLink">Home</a>
-      <a class="mainLink">About</a>
-      <a class="mainLink">Contact</a>
-      <a class="mainLink">Blog</a>
-      <a class="mainLink">Careers</a>
-    </div>
+  <header class="header">
+    <nav class="flex flex-jc-sb flex-ai-c">
+      
+      <a href="/" class="header__logo">
+        <img src="/logo.f3865969.svg" alt="easybank">
+      </a>
+      <a href="/" class="header__menu hide-for-desktop">
+        <img class="burger" src="/icon-hamburger.4d46a600.svg" alt="header__menu">
+      </a>
+      <a href="/" class="header__close hide-for-desktop">
+        <img class="close" src="/icon-close.672c8e2b.svg" alt="header__close">
+      </a>
+
+      <div class="flex flex-ai-c header__links hide-for-mobile">
+        <a href="/" class="header__link">Home</a>
+        <a href="/" class="header__link">About</a>
+        <a href="/" class="header__link">Contact</a>
+        <a href="/" class="header__link">Blog</a>
+        <a href="/" class="header__link">Careers</a>
+      </div>
+      <a href="/" class="button header__cta hide-for-mobile">Request Invite</a>
+    </nav>
     
-    <div class="buttonContainer">
-      <button class="button">Request Invite
-    </button></div>
-  </div>
+  </header>
 </section>
 
-<section class="body">
+<!-- <section class="body">
   <div class="bodyOne">
     <h2>
       Next generation digital banking
@@ -127,6 +129,7 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
+  <script src="/script.d573be0b.js"></script>
 </body>
 </html>
